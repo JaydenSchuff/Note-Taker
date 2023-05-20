@@ -1,3 +1,6 @@
+:root{
+    --background:rgb(18,85,9)
+}
 html,
 body {
     font-family: 'Raleway', sans-serif;
@@ -8,21 +11,21 @@ body {
 
 h1,
 h4 {
-    color: rgb(18, 85, 9);
+    color:var(--background);
 }
 
 .btn {
-    background-color: rgb(18, 85, 9);
+    background-color: var(--background);
 }
 
 .navbar {
-    background-color: rgb(18, 85, 9);
+    background-color:var(--background);
     border-bottom: solid black 4px;
     margin-bottom: 8px;
 }
 
 .navbar-brand {
-    color: #e7ddf3f3;
+    color: #ddf3eaf3;
 }
 
 .save-note {
@@ -38,7 +41,7 @@ h4 {
 
 .note-textarea,
 .note-title {
-    color: rgb(18, 85, 9);
+    color: var(--background);
     width: 100%;
     outline: none;
     border: none;
@@ -47,12 +50,12 @@ h4 {
 
 .note-textarea::placeholder,
 .note-title::placeholder {
-    color:  rgb(18, 85, 9);
+    color: var(--background);
 }
 
 .note-title:read-only,
 .note-textarea:read-only {
-    color:  rgb(18, 85, 9);
+    color: var(--background);
 }
 
 .note-textarea {
@@ -88,7 +91,7 @@ h4 {
 }
 
 .list-item-title {
-    color:  rgb(18, 85, 9);
+    color: var(--background);
     display: inline-block;
     width: 75%;
 }

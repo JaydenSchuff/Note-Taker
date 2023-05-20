@@ -14,5 +14,8 @@ Go to the deployed website and input notes!
 ![Functioning](/Assets/Note-Taker-Working.png)
 
 
+## Links 
+https://github.com/JaydenSchuff/Note-Taker
+
 ## Credits
 https://github.com/tracye1083/Note-Taker  <-- Helped a lot for under standing but I did add upon this -->
